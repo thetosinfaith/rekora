@@ -1,4 +1,4 @@
-import About1 from '../../assets/ABOUT1.jpg'
+import About1 from '../../assets/about1.jpg'
 
 export default function AboutHero() {
   return (

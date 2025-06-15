@@ -36,15 +36,14 @@ useEffect(() => {
 
           <div className="relative z-10" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <h1 className="text-3xl leading-[1.4] md:text-4xl md:leading-[1.3] lg:text-6xl lg:leading-[1.2] font-bold font-heading text-white mb-6">
-              Empowering Africa's Young Scientists
+              Empowering STEM Enthusiasts In Africa
             </h1>
 
             <div className="mb-6 h-1 w-16 bg-rekora-light-blue"></div>
 
             <p className="text-white mb-8 max-w-lg text-lg font-body">
-              We inspire young minds through interactive learning, creativity,
-              and exploration. Our kid-friendly environment ensures children can develop essential skills in math, science,
-              reading, and problem-solving while having fun.
+              Rekora is a neuroscience access and exposure initiative in Lagos, Nigeria that offers high school students hands-on learning, mentoring, and access to neuroscience equipment bridging gaps in STEM education and fostering socially responsible leadership.
+
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-start mt-8" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">

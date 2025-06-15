@@ -68,13 +68,13 @@ const Header = () => {
                   About Us{" "}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-pink transition-all group-hover:w-full"></span>
                 </Link>
-                <a
-                  href="#features"
+                <Link
+                  to="/programs"
                   className="text-white hover:text-brand-pink transition-colors relative group"
                 >
                   Programs{" "}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-pink transition-all group-hover:w-full"></span>
-                </a>
+                </Link>
 
                 <Link to="/resources" className="text-white hover:text-brand-pink transition-colors relative group">
                   Resources
@@ -121,11 +121,11 @@ const Header = () => {
             <AnimatePresence>
               {mobileMenuOpen && (
                 <motion.div
-                  initial={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: "auto" }}
-                  exit={{ opacity: 0, height: 0 }}
-                  transition={{ duration: 0.3 }}
-                  className="lg:hidden glassmorphism mt-4 rounded-2xl border-t text-white"
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3, ease: "easeOut" }}
+                  className="lg:hidden glassmorphism mt-4 rounded-2xl text-white shadow-lg border border-white/10"
                 >
                   <nav className="container mx-auto px-4 flex flex-col py-4">
                     <Link
